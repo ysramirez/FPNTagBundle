@@ -34,7 +34,7 @@ Or you can edit your composer.json, and add :
 
 To start using the bundle, register it in your Kernel. This file is usually
 located at `app/AppKernel`:
-
+```php
     public function registerBundles()
     {
         $bundles = array(
@@ -42,7 +42,7 @@ located at `app/AppKernel`:
             new FPN\TagBundle\FPNTagBundle(),
         );
     )
-
+```
 ### Create your `Tag` and `Tagging` entities
 
 To use this bundle, you'll need to create two new entities: `Tag` and `Tagging`.
